@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Violeta Parra - Documentación</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--CSS-->    
+    <link href="css/normalize.css" type="text/css" rel="stylesheet">
+    <link href="css/estilo-documentacion.css" type="text/css" rel="stylesheet">
+    <!--Fancybox-->
+    <link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css?v=2.1.5" media="screen" />
+<!--JS-->
+   <script src="js/jquery-2.0.0.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <!--Fancybox-->
+    <script type="text/javascript" src="js/jquery.fancybox.js?v=2.1.5"></script>
+</head>
+<body>
+    <header>
+       <div class="center">
+           <a href="index.html"><img id="logo" src="img/logo1.png" alt="logo"></a>
+           <form action="formulario">
+            <input type="text" placeholder="Escribe aquí para buscar">
+            <div class="linea-header"></div>
+        </form>
+        <nav>
+            <ul>
+                <li><a href="index.html" target="_self">Inicio</a></li>
+                <li><a href="biografia.html" target="_self">Biografía</a></li>
+                <li><a href="musica.html" target="_self">Música</a></li>
+                <li><a href="obra_visual.html" target="_self">Obra Visual</a></li>
+                <li><a href="fotografias.html" target="_self">Fotografías</a></li>
+                <li><a href="documentacion.html" target="_self">Documentación</a></li>
+            </ul>
+        </nav>
+       </div>
+    </header>
+    <div id="migajas">
+        <p><a href="index.html">Inicio</a> > Documentación</p>
+    </div>
+    <h1>DOCUMENTACIÓN</h1>
+    <section id="secciones">
+        <a href="#"><figure class="chico1"> 
+            <img src="img/docu1.jpg">
+            <figcaption>
+               <p>Manuscrito</p> 
+            </figcaption>
+        </figure></a>
+        <a href="#"><figure class="chico2">
+            <img src="img/docu2.jpg">
+            <figcaption>
+               <p>Libros</p> 
+            </figcaption>
+        </figure></a>
+       <a href="#"> <figure class="chico3">
+            <img src="img/docu3.jpg">
+            <figcaption>
+               <p>Entrevistas</p> 
+            </figcaption>
+        </figure></a>
+        <a href="#"><figure class="chico4">
+            <img src="img/docu4.jpg">
+            <figcaption>
+               <p>Artículos</p> 
+            </figcaption>
+        </figure></a>
+        <a href="#"><figure class="chico5">
+            <img src="img/docu5.jpg">
+            <figcaption>
+               <p>Poemas dedicados</p> 
+            </figcaption>
+        </figure></a>
+    </section>
+    <footer>
+       <div class="center">
+        <img id="logo2" src="img/logo2.jpg" alt="logo fundacion">
+        <ul>
+            <li><a href="#">Fundación</a></li>
+            <li><a href="#">Mapa de sitio</a></li>
+        </ul>
+        <p><a class="fancybox-effects-c" href="#inline1">Creditos</a> | © 2008 Fundación Violeta Parra | contacto@fundacionparra.cl</p>
+        <div id="inline1" style="width:400px;display: none;">
+		<h2>Creditos de Violetaparra.cl</h2>
+		<p>
+			Sebastian Olate Huenuñir<br>Diseñador y productor web ;)
+		</p>
+	</div>
+        </div>
+        <div class="clear"></div>
+    </footer>
+</body>
+</html>
+<script>
+    //Fancybox galeria
+    $(document).ready(function() {
+    //Fancybox creditos
+			$(".fancybox-effects-c").fancybox({
+				wrapCSS    : 'fancybox-custom',
+				closeClick : true,
+
+				openEffect : 'none',
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					overlay : {
+						css : {
+							'background' : 'rgba(238,238,238,0.85)'
+						}
+					}
+				}
+			});
+        });
+</script>

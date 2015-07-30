@@ -1,0 +1,169 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../img/symphony.png);
+    font-family: sans-serif;
+}
+
+.center{
+    width: 70%;
+    margin: 0px auto;
+}
+.clear{
+    clear: both;
+}
+
+/*Header*/
+header{
+    height: 140px;
+    background-color: #732C7C;
+    min-width: 960px;
+}
+#logo{
+    margin: 18px 0px 16px 0px;
+    float: left;
+}
+input[type="text"]{
+    color: #999;
+    float: right;
+    width: 190px;
+    height: 26px;
+    margin: 28px 0px 16px 0px;
+    -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+.linea-header{
+    clear: both;
+    border-bottom: solid #fff  1px;
+}
+nav{
+    float: right;
+}
+nav li{
+    list-style-type: none;
+    float: left;
+    margin: 0px 5px;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+}
+nav a:hover{
+    text-decoration: none;
+    color: #732C7C;
+    font-size: 16px;
+    padding: 10px;
+    background: #BB9EBD;
+    -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+#migajas{
+    margin: 0px auto;
+    background: #e6e6e6;
+    padding: 1px 20px 1px 20px;
+    width: 960px;
+    font-size: 12px;
+}
+
+h1{
+    text-align: center;
+    margin: 34px auto;
+    font-size: 350%;
+    color: #732C7C;
+}
+/*cursor: pointer;*/
+/*galeria*/
+#discografia{
+    width: 960px;
+    margin: 0px auto 310px auto;
+}
+#discografia h2{
+    color: #fff;
+    padding: 6px 76px;
+    background-color: #732C7C;
+    display:inline-block;
+    margin-top: 42px;
+    -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+#discos{
+    z-index: 1;
+    position: relative;
+}
+#discos img{
+    margin: 42px 0px 0px 62px;
+    cursor: pointer;
+    z-index: 3;
+}
+.spoty1, .spoty2, .spoty3, .spoty4, .spoty5, .spoty6, .spoty7, .spoty8, .spoty9, .spoty10, .spoty11, .spoty12, .spoty13, .spoty14{
+    display: none;
+    width: 960px;
+    background-color: #fff;
+    z-index: 4;
+    position: absolute;
+}
+
+/*footer*/
+footer{
+    background-color: #fff;
+    border-top: solid 2px #732C7C;
+    margin: 30px 0px 0px 0px;
+    color: #732C7C;
+    font-size: 14px;
+}
+#logo2{
+    float: left;
+}
+footer ul{
+    float: left;
+}
+footer li{
+    float: left;
+    list-style-type: none;
+    margin-top: 12px
+}
+footer li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    color: #732C7C;
+}
+footer li a:hover{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    color: #732C7C;
+    background: #BB9EBD;
+    -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+footer p{
+    float: right;
+    margin-top: 32px;
+}
+footer p a{
+    color: #732C7C;
+}
+footer p a:hover{
+    color: #732C7C;
+    background: #BB9EBD;
+    -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+    text-decoration: none;
+    padding: 5px;
+}
